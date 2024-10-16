@@ -1,52 +1,34 @@
-![recommended node version](https://img.shields.io/badge/node-v16-green)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Angular + ButterCMS Starter Project
+## Getting Started
 
-This Angular starter project fully integrates with dynamic sample content from your ButterCMS account, including main menu, pages, blog posts, categories, and tags, all with a beautiful, custom theme with already-implemented search functionality. All of the included sample content is automatically created in your account dashboard when you sign up for a free trial of ButterCMS.
-
-[View our live demo hosted at Vercel](https://test.vercel.app/), or you can click a button below to deploy your own copy of our starter
-project to the provider of your choice.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FButterCMS%2Fangular-starter-buttercms&env=NG_APP_ANGULAR_BUTTER_CMS_API_KEY&envDescription=Your%20ButterCMS%20API%20Token&envLink=https%3A%2F%2Fbuttercms.com%2Fsettings%2F&project-name=angular-starter-buttercms&repo-name=angular-starter-buttercms&redirect-url=https%3A%2F%2Fbuttercms.com%2Fonboarding%2Fvercel-starter-deploy-callback%2F&production-deploy-hook=Deploy%20Triggered%20from%20ButterCMS&demo-title=ButterCMS%20Angular%20Starter&demo-description=Fully%20integrated%20with%20your%20ButterCMS%20account&demo-url=https%3A%2F%2Ftest.vercel.app%2F&demo-image=https://cdn.buttercms.com/r0tGK8xFRti2iRKBJ0eY&repository-name=angular-starter-buttercms) 
-
-## 1. Installation
-
-First, clone the repo and install the dependencies by running `npm install`
+First, run the development server:
 
 ```bash
-git clone https://github.com/ButterCMS/angular-starter-buttercms
-cd angular-starter-buttercms
-npm install
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-### 2. Set API Token
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To fetch your ButterCMS content, add your API token as an environment variable.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-```bash
-$ echo 'NG_APP_ANGULAR_BUTTER_CMS_API_KEY=<Your API Token>' >> .env
-```
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-### 3. Run local server
+## Learn More
 
-To view the app in the browser, you'll need to run the local development server:
+To learn more about Next.js, take a look at the following resources:
 
-```bash
-$ npm run start
-```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Congratulations! Your starter project is now live at [http://localhost:4200/](http://localhost:4200/).
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## 4. Deploy on Vercel
+## Deploy on Vercel
 
-Deploy your Angular app using Vercel, the creators of Next.js. With a single click, you'll create a copy of our starter project in your Git provider account, instantly deploy it, and institute a full content workflow connected to your ButterCMS account. Smooth.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FButterCMS%2Fangular-starter-buttercms&env=NG_APP_ANGULAR_BUTTER_CMS_API_KEY&envDescription=Your%20ButterCMS%20API%20Token&envLink=https%3A%2F%2Fbuttercms.com%2Fsettings%2F&project-name=angular-starter-buttercms&repo-name=angular-starter-buttercms&redirect-url=https%3A%2F%2Fbuttercms.com%2Fonboarding%2Fvercel-starter-deploy-callback%2F&production-deploy-hook=Deploy%20Triggered%20from%20ButterCMS&demo-title=ButterCMS%20Angular%20Starter&demo-description=Fully%20integrated%20with%20your%20ButterCMS%20account&demo-url=https%3A%2F%2Ftest.vercel.app%2F&demo-image=https://cdn.buttercms.com/r0tGK8xFRti2iRKBJ0eY&repository-name=angular-starter-buttercms) 
-
-### 5. Webhooks
-
-The ButterCMS webhook settings are located at https://buttercms.com/webhooks/
-
-### 6. Previewing Draft Changes
-
-By default, your starter project is set up to allow previewing of draft changes saved in your ButterCMS.com account. To disable this functionality, set the following value in your .env file: NG_APP_ANGULAR_BUTTER_CMS_PREVIEW=false
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
